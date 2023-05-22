@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mySection{
+    width: 80%;
+    height: 80vh;
+    background-color: burlywood;
+    /* border: 1px solid burlywood; */
+    margin: 60px auto;
+    border-radius: 10px;
+}
+
+.mySection #myInp{
+    width: 97%;
+    height: 30px;
+    margin: 10px 15px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.mySection ul{
+    list-style: none;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+ 
+.mySection ul li{
+    width: 97%;
+    margin-top: 15px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.mySection ul li:nth-child(odd){
+    background-color: beige;
+}
+
+.mySection ul li:nth-child(even){
+    background-color: white;
+}
+
+.mySection ul li a{
+    text-decoration: none;
+    color: black;
+
+}
